@@ -1,19 +1,43 @@
 {
   "name": "telegram-user-info-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for getting public user information",
+  "description": "Telegram bot for getting public user information from profiles",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "render-build": "echo \"Building for Render...\""
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "user-info",
+    "profile-scanner",
+    "javascript",
+    "nodejs",
+    "render"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/telegram-user-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/telegram-user-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/telegram-user-bot#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
   "dependencies": {
-    "telegraf": "^4.11.2",
-    "axios": "^1.5.0"
+    "telegraf": "^4.12.2",
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["telegram", "bot", "user-info"],
-  "author": "Your Name",
-  "license": "MIT"
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
