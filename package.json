@@ -4,17 +4,16 @@
   "description": "Telegram bot for getting public user information",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "telegraf": "^4.11.2",
     "axios": "^1.5.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
   "engines": {
-    "node": ">=14.0.0"
-  }
+    "node": ">=18.0.0"
+  },
+  "keywords": ["telegram", "bot", "user-info"],
+  "author": "Your Name",
+  "license": "MIT"
 }
